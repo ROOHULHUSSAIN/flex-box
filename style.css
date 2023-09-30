@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+#video-container {
+    flex: 2;
+    margin-right: 20px;
+}
+#sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.video {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.video img {
+    max-width: 100%;
+}
+h2 {
+    margin-top: 0;
+}
